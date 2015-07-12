@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet"
+          href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{site_url}}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{{site_url}}/stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="{{site_url}}/stylesheets/hackergarten.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="/javascripts/respond.js"></script>
+    <script
+            src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+          <title>{{ page.title }}</title>
+  </head>
+
+  <body>
+    <div class="navbar-gba"> 
+      <div class="container-fluid">
+        <div class="row first">
+          <div class="col-xs-6 col-md-offset-2 col-md-2">
+            <a class="home" href="{{site.url}}/"><img class="home" 
+                                                          src="{{site.url}}/images/yellow-home-icon.png"
+                                                          alt="Home"/></a>
+          </div>
+          <div class="col-xs-6 col-md-offset-4 col-md-2 github">
+            <a href="https://github.com/hackergarten-lausanne">View On GitHub</a>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <!-- <div class="row first"> -->
+      <!--   <div class="col&#45;md&#45;2"></div> -->
+      <!-- </div> -->
+      <div class="row">
+        <div class="col-xs-3 col-md-offset-2 col-md-2">
+          <div class="panel panel-default sidebar">
+            <div class="panel-heading">
+              Browse
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li><span class="glyphicon
+                glyphicon-chevron-right"></span> <a
+                          href="{{site.url}}/">Home</a></li>
+                <li><span class="glyphicon
+                glyphicon-chevron-right"></span> <a
+                          href="{{site.url}}/past.html">Past sessions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-9 col-md-6">
+
+          {{ content }}
+
+        </div>
+      </div>
+    </div>
+    <div class="navbar-fixed-bottom navbar-gba">
+      <hr>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <span class="credits right">Hosted on GitHub Pages &mdash;
+              Theme based on <a
+                href="https://twitter.com/michigangraham">mattgraham</a>'s
+              work</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
