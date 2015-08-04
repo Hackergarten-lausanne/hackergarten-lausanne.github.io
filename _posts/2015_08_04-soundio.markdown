@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "SoundIO"
+date:   2015-08-04 18:30:00
+---
+
+## Attendees
+Chris, Oscar, Stephen and Greg
+
+## What we did
+Stephen is the creator of the [soundio][soundio] library that is a wrapper the
+[WebAudio][WebAudio]
+browser API. A demonstration of what the API can do is available at
+[Sound.io][SoundDotIo]
+
+After a one hour presentation, we dived in, creating a note synthesizer, a
+json music reader/player, and a keyboard input method to play notes
+
+[soundio]: https://github.com/soundio/soundio
+[SoundDotIo]: https://github.com/soundio/soundio
+[WebAudio]: https://github.com/soundio/soundio
